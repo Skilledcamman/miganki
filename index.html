@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f8efe8" />
+    <meta
+      name="description"
+      content="A tiny, private corner of the internet made with love."
+    />
+    <title>miganki ♡</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="grain" aria-hidden="true"></div>
+
+    <main class="site-shell">
+      <section class="lock-screen" id="lockScreen" aria-labelledby="lockTitle">
+        <div class="lock-mark" aria-hidden="true">♡</div>
+        <h1 id="lockTitle">This is<br /><em>for you.</em></h1>
+        <p class="lock-copy">
+          Enter the secret word to open our little corner of the internet.
+        </p>
+        <form class="pass-form" id="passForm">
+          <label class="sr-only" for="password">Secret word</label>
+          <input
+            id="password"
+            name="password"
+            type="password"
+            autocomplete="off"
+            placeholder="secret word"
+            autofocus
+          />
+          <button type="submit" aria-label="Unlock the website">→</button>
+        </form>
+        <p class="error-message" id="errorMessage" role="alert"></p>
+        <p class="hint">hint: My nickname for our future daughter hehehehe</p>
+      </section>
+
+      <section class="love-site" id="loveSite" aria-hidden="true">
+        <nav class="nav">
+          <a href="#" class="brand" aria-label="Home">
+            <img src="images/half.png" alt="" />
+          </a>
+          <div class="nav-links">
+          </div>
+          <button class="music-button" id="musicButton" type="button">
+            <span class="music-icon">♫</span>
+            <span id="musicLabel">play the song</span>
+          </button>
+        </nav>
+
+        <header class="hero">
+          <div class="hero-copy">
+            <p class="eyebrow">to my prettiest babyyyyy</p>
+            <img class="hero-sign" src="images/sign_gif.gif" alt="you’re my everything" />
+          </div>
+          <div class="hero-art">
+            <div class="sun-ring"></div>
+            <div class="hero-image-backdrop" aria-hidden="true"></div>
+            <div class="hero-image image-frame">
+              <img
+                src="images/us.png"
+                alt="A soft romantic image filled with glowing hearts"
+              />
+            </div>
+            <img class="hero-note note-two" src="images/half.png" alt="" aria-hidden="true" />
+          </div>
+        </header>
+
+        <section class="story section" id="story">
+          <div class="story-content">
+            <div class="background-picture" aria-hidden="true">
+              <img src="images/hellokitty1.png" alt="" />
+            </div>
+            <div class="story-copy">
+              <h2>It started<br /><em>so simply.</em></h2>
+              <div class="story-text">
+                <p>
+                  A stupid ass conversation that ran too long. Mutual banter that turned into a
+                  friendship. 
+                  Then, somehow, the ordinary days became the ones I wanted to
+                  remember forever.
+                </p>
+                <p class="signature">— still my best plot twist</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="text-story section" aria-label="A story in messages">
+          <img
+            class="text-overlay"
+            src="images/text_overlay.png"
+            alt="A dark message window with a Minecraft notification"
+          />
+          <div class="text-scroll-window">
+            <img
+              src="images/text_scroll.png"
+              alt="A long conversation shown as a message thread"
+            />
+          </div>
+        </section>
+
+        <section class="longchat-section section" aria-label="A longer conversation">
+          <img
+            class="longchat-image"
+            src="images/longchat.jpg"
+            alt="A long message conversation"
+          />
+          <img
+            class="longchat-image longchat-image-second"
+            src="images/longchat2.png"
+            alt="Another long message conversation"
+          />
+        </section>
+
+        <section class="kitty-section section" aria-label="A little Hello Kitty moment">
+          <img
+            class="kitty-section-image"
+            src="images/hellokitty.jpg"
+            alt="Hello Kitty illustration"
+          />
+          <div class="kitty-section-copy">
+            <h2>Playing<br /><em>together.</em></h2>
+            <p>Even the simplest moments feel special when I get to share them with you.</p>
+          </div>
+        </section>
+
+        <section class="frames-section section" aria-label="Moments we played together">
+          <div class="frames-heading">
+            <p class="eyebrow">the little adventures</p>
+          </div>
+          <div class="frames-grid">
+            <figure class="memory-frame memory-frame-one">
+              <img src="images/frame1.png" alt="A Minecraft memory of us in a boat" />
+            </figure>
+            <figure class="memory-frame memory-frame-two">
+              <img src="images/frame2.png" alt="A cozy Minecraft memory of us together" />
+            </figure>
+            <figure class="memory-frame memory-frame-three">
+              <img src="images/frame3.png" alt="A Minecraft memory surrounded by pictures" />
+            </figure>
+            <figure class="memory-frame memory-frame-four">
+              <img src="images/frame4.png" alt="A Minecraft memory with a shield" />
+            </figure>
+            <figure class="memory-frame memory-frame-five">
+              <img src="images/frame5.png" alt="A Minecraft memory on the water" />
+            </figure>
+            <figure class="memory-frame memory-frame-six">
+              <img src="images/frame6.png" alt="A Minecraft memory inside our home" />
+            </figure>
+          </div>
+        </section>
+
+        <section class="kitty-story section" aria-label="How it started">
+          <div class="kitty-story-image">
+            <img src="images/hellokitty2.jpg" alt="Pixel-art Hello Kitty holding a strawberry" />
+          </div>
+          <div class="kitty-story-copy">
+            <h2><span>losing track</span><br /><em>of time.</em></h2>
+            <div class="kitty-story-text">
+              <p>
+                It's only been 4 months since we've met, but it feels like I've known you for a lifetime. We can stay hours in the vc without realizing how long it's been. I cant imagine a day without you anymore.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="voice-note-section section" aria-label="A voice note">
+          <div class="voice-note-bow">
+            <img src="images/mriganki/bowgif.gif" alt="" />
+          </div>
+          <div class="voice-note-luvpot">
+            <img src="images/luvpot.png" alt="" />
+          </div>
+          <div class="voice-note-mgif">
+            <img class="voice-note-mgif-image" src="images/mriganki/mgif.gif" alt="" />
+            <img class="voice-note-mgif-frame" src="images/frame.png" alt="" />
+          </div>
+          <div class="voice-note-hidden">
+            <img src="images/mriganki/hidden.png" alt="" />
+          </div>
+          <div class="voice-note-eat">
+            <img src="images/mriganki/eat.png" alt="A sweet memory of us eating together" />
+          </div>
+          <div class="voice-note-sausage">
+            <img src="images/mriganki/sausagefinger.png" alt="" />
+          </div>
+          <div class="voice-note-half">
+            <img src="images/half.png" alt="" />
+          </div>
+          <div class="voice-note-list">
+          <div class="voice-note-card" data-voice-note>
+            <audio preload="metadata">
+              <source src="images/Iloveyou (1).mp3" type="audio/mpeg" />
+            </audio>
+            <button class="voice-note-play" type="button" aria-label="Play voice note one">
+              <span class="voice-note-play-icon">▶</span>
+            </button>
+            <div class="voice-note-wave" aria-hidden="true">
+              <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+              <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+            </div>
+            <span class="voice-note-time">0:00</span>
+          </div>
+          </div>
+          <div class="voice-note-card voice-note-card-second" data-voice-note>
+            <audio preload="metadata">
+              <source src="images/Iloveyou (3).mp3" type="audio/mpeg" />
+            </audio>
+            <button class="voice-note-play" type="button" aria-label="Play voice note two">
+              <span class="voice-note-play-icon">▶</span>
+            </button>
+            <div class="voice-note-wave voice-note-wave-second" aria-hidden="true">
+              <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+              <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+            </div>
+            <span class="voice-note-time">0:00</span>
+          </div>
+          <div class="voice-note-miki">
+            <img src="images/mriganki/miki1.png" alt="" />
+          </div>
+          <div class="voice-note-miki voice-note-miki-left">
+            <img src="images/mriganki/miki2.png" alt="" />
+          </div>
+          <div class="voice-note-dettol">
+            <img src="images/mriganki/dettol.png" alt="" />
+          </div>
+        </section>
+
+        <section class="book section" id="book" aria-label="Our book">
+          <div class="book-heading">
+            <h2>trying to put it into <em>words.</em></h2>
+          </div>
+          <div class="book-viewer">
+            <div class="book-page" id="bookPage">
+              <img src="images/book1.png" alt="Book page 1 of 5" />
+              <button class="book-button book-button-left" id="previousBookPage" type="button" aria-label="Previous page">
+                <img src="images/left_button.png" alt="" />
+              </button>
+              <button class="book-button book-button-right" id="nextBookPage" type="button" aria-label="Next page">
+                <img src="images/right_button.png" alt="" />
+              </button>
+              <div class="book-voice-note voice-note-card" data-voice-note hidden>
+                <audio preload="metadata">
+                  <source src="images/sang.mp3" type="audio/mpeg" />
+                </audio>
+                <button class="voice-note-play" type="button" aria-label="Play final book voice note">
+                  <span class="voice-note-play-icon">▶</span>
+                </button>
+                <div class="voice-note-wave voice-note-wave-book" aria-hidden="true">
+                  <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+                  <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+                </div>
+                <span class="voice-note-time">0:00</span>
+              </div>
+            </div>
+            <div class="answer-buttons" id="answerButtons" aria-label="Choose an answer" hidden>
+              <button class="answer-button" id="yesButton" type="button" aria-label="Yes">
+                <img src="images/yes.png" alt="Yes" />
+              </button>
+              <button class="answer-button" id="noButton" type="button" aria-label="No">
+                <img src="images/no.png" alt="No" />
+              </button>
+            </div>
+          </div>
+        </section>
+
+        <footer class="footer">
+          <p>made with all my heart</p>
+          <span>♡</span>
+          <p>for my favorite person</p>
+        </footer>
+      </section>
+    </main>
+
+    <img class="luv-cursor" src="images/luv.png" alt="" aria-hidden="true" />
+    <audio
+      id="ourSong"
+      loop
+      preload="none"
+      src="images/Nothing.mp3"
+    ></audio>
+    <script src="script.js"></script>
+  </body>
+</html>
